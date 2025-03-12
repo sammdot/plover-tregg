@@ -1,0 +1,29 @@
+[project]
+name = "plover-tregg"
+version = "1.0.0"
+description = "Thai steno system plugin for Plover"
+readme = "README.md"
+requires-python = ">= 3.7"
+license = { file = "LICENSE" }
+authors = [{ name = "Sammi Ta", email = "sammi@sammdot.ca" }]
+keywords = ["plover", "plover_plugin"]
+classifiers = [
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+]
+dependencies = ["plover >= 4.0.0.dev11"]
+
+[project.urls]
+repository = "https://github.com/sammdot/plover-tregg"
+homepage = "https://github.com/sammdot/plover-tregg"
+
+[tool.setuptools]
+packages = ["plover_tregg"]
+
+[build-system]
+requires = ["setuptools >= 61.0.0", "wheel"]
+
+[project.entry-points."plover.system"]
+Tregg = "plover_tregg.system"
