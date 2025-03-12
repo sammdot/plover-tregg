@@ -4,7 +4,7 @@
 #   ย ง บ ด * ก ต ร น ม
 #   ว ม ก น * ค ป ล ง ย
 #
-#       O o  ⋂ ⋃
+#       O o  ⋂ U
 #
 # Note the unconventional steno order -- right side first left-to-right,
 # then thumbs left-to-right, then left side right-to-left. This is according
@@ -14,12 +14,12 @@ KEYS = (
   "ก-", "ค-", "ต-", "ป-", "ร-", "ล-", "น-", "ง-", "ม-", "ย-",
   "O-", "o-",
   "*",
-  "-⋂", "-⋃",
+  "-⋂", "-U",
   "-ด", "-น", "-บ", "-ก", "-ง", "-ม", "-ย", "-ว"
 )
 # fmt: on
 
-IMPLICIT_HYPHEN_KEYS = ("O-", "o-", "*", "-⋂", "-⋃")
+IMPLICIT_HYPHEN_KEYS = ("O-", "o-", "*", "-⋂", "-U")
 SUFFIX_KEYS = ()
 NUMBER_KEY = "#"
 NUMBERS = {
@@ -57,7 +57,7 @@ KEYMAPS = {
     "o-": "v",
     "*": ("t", "g", "y", "h"),
     "-⋂": "n",
-    "-⋃": "m",
+    "-U": "m",
     "ก-": "u",
     "ค-": "j",
     "ต-": "i",
@@ -89,7 +89,7 @@ KEYMAPS = {
     "o-": "O-",
     "*": ("*1", "*2", "*3", "*4"),
     "-⋂": "-E",
-    "-⋃": "-U",
+    "-U": "-U",
     "ก-": "-F",
     "ค-": "-R",
     "ต-": "-P",
