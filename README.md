@@ -15,3 +15,5 @@ Tregg Steno is a Thai machine shorthand theory created by WKIOLPK, based on the 
 TODO
 
 **Note**: The steno order starts with the initial consonants on the right-hand side. See `plover_tregg/system.py` for details.
+
+See [Tregg Steno Theory](https://github.com/sammdot/plover-tregg/blob/main/theory.md) for more information on how the steno theory works.
