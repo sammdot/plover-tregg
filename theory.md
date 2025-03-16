@@ -83,24 +83,16 @@ Consonant clusters:
 
 ## Vowels
 
-|      Vowel       |  Paiboon   | Steno |
-| :--------------: | :--------: | :---: |
-|    ◌า, เ◌, แ◌    | aa, ee, ɛɛ |  `O`  |
-|   ◌ะ, เ◌ะ, แ◌ะ   |  a, e, ɛ   | `O*`  |
-|     &#3637;      |     ii     |  `o`  |
-|     &#3636;      |     i      | `o*`  |
-|      โ◌, ◌อ      |   oo, ɔɔ   |  `U`  |
-|    โ◌ะ, เ◌าะ     |    o, ɔ    | `*U`  |
-| &#3639;, &#3641; |   ʉʉ, uu   |  `⋂`  |
-| &#3638;, &#3640; |    ʉ, u    | `*⋂`  |
-|    เ◌&#3639;ย    |    iia     | `Oo`  |
-|   เ◌&#3639;ยะ    |     ia     | `Oo*` |
-|     &#3633;ว     |    uua     | `O⋂`  |
-|    &#3633;วะ     |     ua     | `O*⋂` |
-|    เ◌&#3638;อ    |    ʉʉa     | `⋂U`  |
-|                  |            | `*⋂U` |
-|       เ◌อ        |     əə     | `oU`  |
-|       เ◌อะ       |     ə      | `o*U` |
+|               Vowel                |       Paiboon       | Steno |
+| :--------------------------------: | :-----------------: | :---: |
+|      ◌า, ◌ะ, เ◌, เ◌ะ, แ◌, แ◌ะ      | aa, a, ee, e, ɛɛ, ɛ |  `O`  |
+|          &#3637;, &#3636;          |        ii, i        |  `o`  |
+|         โ◌, โ◌ะ, ◌อ, เ◌าะ          |    oo, o, ɔɔ, ɔ     |  `U`  |
+| &#3639;, &#3638;, &#3641;, &#3640; |    ʉʉ, ʉ, uu, u     |  `⋂`  |
+|      เ◌&#3639;ย, เ◌&#3639;ยะ       |       iia, ia       | `Oo`  |
+|        &#3633;ว, &#3633;วะ         |       uua, ua       | `O⋂`  |
+|             เ◌&#3638;อ             |         ʉʉa         | `⋂U`  |
+|             เ◌อ, เ◌อะ              |        əə, ə        | `oU`  |
 
 ## Finals
 
@@ -117,7 +109,7 @@ Consonant clusters:
 
 The final can also be committed when the syllable ends in a vowel.
 
-The ย and ว finals are used for writing diphthongs, for example ใคร _krai_ would be written `ครOย` (คร kr + ◌า aa + ย i).
+The ย and ว finals are used for writing diphthongs, for example ใคร _krai_ would be written `ครOย` (คร kr + ◌ะ a + ย i).
 
 ## Punctuation and Formatting Controls
 
@@ -139,25 +131,25 @@ The following punctuation marks and formatting controls can be written with a fi
 ## Example
 
 คงไม่มีใครอ่านหัวใจของคนรักได้อย่างถูกต้องหรอกนะ  
-_kong mâi mii krai àan hǔua jai kɔ̌ɔng kon rák dâai yàang tùuk dtɔ̂ɔng rɔ̀ɔk ná_
+_kong mâi mii krai àan hǔua jai kɔ̌ɔng kon rák dâai yàang tùuk dtɔ̂ɔng rɔ̀k ná_
 
 ```
   ค          * U    ง        k +   o + ng   คง
-         ม O                 m +  aa +  i   ไม่
+         ม O                 m +   a +  i   ไม่
          ม  o                m +  ii        มี
-  ค  ร     O          ย     kr +  aa +  i   ใคร
+  ค  ร     O          ย     kr +   a +  i   ใคร
            O     น                aa +  n   อ่าน
        นง  O  ⋂              h + uua        หัว
-       น ม O          ย      j +  aa +  i   ใจ
+       น ม O          ย      j +   a +  i   ใจ
   ค            U    ง        k +  ɔɔ + ng   ของ
-  ค            U น           k +  oo +  n   คน
-     ร     O       ก         r +  aa +  k   รัก
+  ค            U น           k +   o +  n   คน
+     ร     O       ก         r +   a +  k   รัก
    ตป      O          ย      d +  aa +  i   ได้
           ยO        ง        y +  aa + ng   อย่าง
  ก ต          ⋂    ก         t +  uu +  k   ถูก
    ต           U    ง       dt +  ɔɔ + ng   ต้อง
-     ร         U   ก         r +  ɔɔ +  k   หรอก
-       น   O *               n +  aa        นะ
+     ร         U   ก         r +   ɔ +  k   หรอก
+       น   O *               n +   a        นะ
 ```
 
 ![As written by WKIOLPK](https://raw.githubusercontent.com/sammdot/plover-tregg/main/assets/sample.png)
